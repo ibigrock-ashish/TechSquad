@@ -1,38 +1,38 @@
-body {margin: 0;}
+body {margin: 0px;}
 
 #header {
 	overflow: hidden;
     background-color: black;
     position: fixed;
-    top: 0;
+    top: 0px;
     float: left;
     display: block;
-    color: lightgrey;
+    color: #a7a3a3;
     padding: 14px 16px;
     text-decoration: none;
     border-bottom: 4px solid blue;
 }
 
 h1{
-	font-size: 18;
-	font-style: bold;
-	margin-left: 20;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 20px;
 }
 h1 a {
-	color: lightgrey;
+	color: #a7a3a3;
 	text-decoration: none;
 	margin-right: 40px;
 	float: right;
-	font-size: 14;
+	font-size: 14px;
 }
 
 #herounit {
-	margin-top: 58px;
-	background-color: grey;
+	margin-top: 88px;
+	background-color: #5e5c5c;
 	width :100%;
 	padding :14px 16px;
-	margin-left: 0;
-	margin-right: 0;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #herounit h3{
@@ -45,8 +45,8 @@ h1 a {
 }
 
 h2{
-	font-size: 18;
-	font-style: bold;
+	font-size: 18px;
+	font-weight: bold;
 	color: white;
 }
 
@@ -70,7 +70,7 @@ textarea{
     height: 85px;
     width: 310px;
     font-size: 15px;
-    color: black;
+    font-color: black;
     padding-left: 5px;
 }
 button{
