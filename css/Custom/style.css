@@ -3,9 +3,8 @@ body {margin: 0;}
 #header {
 	overflow: hidden;
     background-color: black;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    /* Full width */
+    position: fixed;
+    top: 0;
     float: left;
     display: block;
     color: lightgrey;
@@ -53,6 +52,7 @@ h2{
 
 h2 p{
 	margin-left: 620px;
+	display: inline-block;
 }
 
 #footer a{
