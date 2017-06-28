@@ -1,4 +1,12 @@
-body {margin: 0;}
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSansCondensed-Light'), local('OOpenSans-Condensed-Light'), url(fonts/OpenSansCondensed-Light.ttf) format('truetype');
+}
+
+body {margin: 0;
+font-family: Cantarell;}
 
 /*Styling Nav Bar*/
 #navbar { 
