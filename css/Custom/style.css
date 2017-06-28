@@ -1,10 +1,11 @@
-body {margin: 0px;}
+body {margin: 0;}
 
-#header {
+/*Styling Nav Bar*/
+#navbar { 
 	overflow: hidden;
     background-color: black;
     position: fixed;
-    top: 0px;
+    top: 0;
     float: left;
     display: block;
     color: #a7a3a3;
@@ -13,49 +14,53 @@ body {margin: 0px;}
     border-bottom: 4px solid blue;
 }
 
-h1{
+h2{
 	font-size: 18px;
 	font-weight: bold;
 	margin-left: 20px;
 }
-h1 a {
+h2 a {
 	color: #a7a3a3;
 	text-decoration: none;
 	margin-right: 40px;
 	float: right;
 	font-size: 14px;
 }
-
+/*Styling end to end unit*/
 #herounit {
-	margin-top: 88px;
+	margin-top: 82px;
 	background-color: #5e5c5c;
 	width :100%;
 	padding :14px 16px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 0;
 }
-
+/*Styling end to end unit*/
 #herounit h3{
 	text-align: center;
 }
-
-#footer {
+/*Styling footer*/
+#foot {
 	padding: 14px 16px; 
 	background-color: black;
 }
 
-h2{
+h3{
 	font-size: 18px;
 	font-weight: bold;
 	color: white;
 }
 
-h2 p{
+h3 b{
 	margin-left: 620px;
 	display: inline-block;
 }
 
-#footer a{
+h4 {
+	font-style: normal;
+}
+/*Styling footer*/
+#foot a{
 	padding: 20px;
     font-size: 30px;
     width: 50px;
