@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'Cantarell';
-    font-style: normal;
-    font-weight: 700;
-    src: local('OpenSansCondensed-Light'), local('OOpenSans-Condensed-Light'), url(fonts/OpenSansCondensed-Light.ttf) format('truetype');
-}
-
-body {margin: 0;
-font-family: Cantarell;}
+body {margin: 0;}
 
 /*Styling Nav Bar*/
 #navbar { 
@@ -92,4 +84,9 @@ button{
     height: 25px;
     width: 115px;
     color: black;
+}
+
+span {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
